@@ -1,3 +1,3 @@
-# MarkdownEditor-React
+# Reactive Markdown Editor
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-tijzth)
+An interactive online markdown editor with real-time preview, powered by React, built using Vite.
