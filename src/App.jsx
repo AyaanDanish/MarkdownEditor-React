@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     const fetchFileContent = async () => {
       try {
-        const response = await fetch("src/components/text/InitialMarkdown.md");
+        const response = await fetch("./components/text/InitialMarkdown.md");
         const content = await response.text();
         setInput(content);
       } catch (error) {
