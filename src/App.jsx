@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     const fetchFileContent = async () => {
       try {
-        const response = await fetch("./components/text/InitialMarkdown.md");
+        const response = await fetch("https://raw.githubusercontent.com/AyaanDanish/MarkdownEditor-React/main/src/components/text/InitialMarkdown.md");
         const content = await response.text();
         setInput(content);
       } catch (error) {
